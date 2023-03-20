@@ -116,6 +116,7 @@ p {
 	text-align: center;
 	color: #ffffff;
 	padding: 20px 50px;
+	cursor: pointer;
 }
 /* how it works section */
 .howitworks {
@@ -203,7 +204,7 @@ p {
 .getstarted__inner {
 	display: flex;
 	align-items: center;
-	padding: 229px 0 180px;
+	padding: 229px 0 170px;
 	margin-left: -70px;
 }
 .getstarted__info {
@@ -247,6 +248,115 @@ p {
 	border-radius: 16.3326px;
 	max-width: 895px;
 }
-.getstarted__video video{
+.getstarted__video video {
 	max-width: 895px;
+}
+/* product section */
+.product {
+	padding: 120px 0 168px;
+}
+.product__inner {
+	display: flex;
+	justify-content: space-between;
+}
+.product__left {
+	padding-left: 60px;
+	position: relative;
+}
+.product__left img {
+	max-width: 638px;
+	/* background: rgba(1, 153, 109, 0.2); */
+	border-radius: 18.1125px;
+}
+.product__card {
+	width: 296px;
+	height: 294px;
+	background: #ffffff;
+	border-radius: 3.72971px;
+	filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+	padding: 25px 55px 30px 60px;
+	position: absolute;
+	left: 0px;
+	top: 354px;
+}
+.product__card h6 {
+	font-weight: 400;
+	font-size: 11.9351px;
+	line-height: 157%;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.product__card img {
+	margin: 0 auto 10px;
+}
+.product__card h4 {
+	font-family: "Georgia";
+	font-weight: 700;
+	font-size: 15.9292px;
+	line-height: 157%;
+	color: #000000;
+	text-align: center;
+}
+.product__card ul li {
+	font-weight: 400;
+	font-size: 10.6195px;
+	line-height: 157%;
+	color: #000000;
+	margin-bottom: 16px;
+}
+.product__card ul {
+	padding-left: 15px;
+}
+.product__card ul li:last-child {
+	margin-bottom: 0;
+}
+.title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 14.49px;
+	line-height: 157%;
+	color: #000000;
+	margin-bottom: 7px;
+}
+.line {
+	width: 110px;
+	border: 0.745942px solid #000000;
+	margin: 0 auto 13px;
+}
+.product__right {
+	max-width: 584px;
+}
+.product__right h5 {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 157%;
+	color: #424242;
+	margin-bottom: 10px;
+}
+.product__right h3 {
+	font-family: "Georgia";
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+	color: #01996d;
+	margin-bottom: 20px;
+}
+.product__right p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 31px;
+	color: #484848;
+	margin-bottom: 30px;
+}
+.product__right button {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #ffffff;
+	background: #01996d;
+	border: 1px solid #01996d;
+	border-radius: 4px;
+	padding: 20px 50px;
+	cursor: pointer;
 }
