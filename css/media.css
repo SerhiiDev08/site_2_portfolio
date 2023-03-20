@@ -1,7 +1,15 @@
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1530px) {
 	.header,
-	.howitworks {
+	.howitworks,
+	.getstarted__inner {
 		padding: 15px;
+	}
+	.getstarted__inner {
+		flex-wrap: wrap;
+		margin-left: 0;
+	}
+	.getstarted__info {
+		margin-bottom: 25px;
 	}
 }
 @media screen and (max-width: 1440px) {
@@ -34,6 +42,18 @@
 		font-size: 40px;
 		margin: 0 auto;
 	}
+	.getstarted__video video {
+		max-width: 500px;
+	}
+	.getstarted__video video[poster] {
+		max-width: 500px;
+	}
+	.getstarted__info {
+		min-width: 400px;
+	}
+	.getstarted__info h3 {
+		font-size: 35px;
+	}
 }
 @media screen and (max-width: 450px) {
 	.header {
@@ -64,5 +84,17 @@
 	}
 	.howitworks__title {
 		margin: 0 auto;
+	}
+	.getstarted__video video {
+		max-width: 300px;
+	}
+	.getstarted__video video[poster] {
+		max-width: 300px;
+	}
+	.getstarted__info {
+		min-width: 300px;
+	}
+	.getstarted__video {
+		padding: 0;
 	}
 }

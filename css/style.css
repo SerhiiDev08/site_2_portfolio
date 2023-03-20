@@ -193,6 +193,60 @@ p {
 .card__item:nth-child(3) {
 	margin-top: 55px;
 }
-.card__item:nth-child(3) .card__title-text{
+.card__item:nth-child(3) .card__title-text {
 	left: 135px;
+}
+/* get started section */
+.getstarted {
+	background-color: #245852;
+}
+.getstarted__inner {
+	display: flex;
+	align-items: center;
+	padding: 229px 0 180px;
+	margin-left: -70px;
+}
+.getstarted__info {
+	min-width: 590px;
+}
+.getstarted__info h3 {
+	font-family: "Georgia";
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+	color: #ffffff;
+	margin-bottom: 33px;
+}
+.getstarted__info p {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 157%;
+	color: #ffffff;
+	margin-bottom: 55px;
+}
+.getstarted__info button {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #ffffff;
+	background: #01996d;
+	border: 1px solid #01996d;
+	border-radius: 4px;
+	padding: 20px 50px;
+	cursor: pointer;
+}
+.getstarted__video {
+	max-width: 895px;
+	width: 100%;
+	cursor: pointer;
+	padding: 0 20px;
+	object-fit: fill;
+}
+.getstarted__video video[poster] {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 16.3326px;
+	max-width: 895px;
+}
+.getstarted__video video{
+	max-width: 895px;
 }
