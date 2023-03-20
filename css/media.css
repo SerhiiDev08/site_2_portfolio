@@ -1,0 +1,44 @@
+@media screen and (max-width: 1440px) {
+	.header {
+		padding: 15px;
+	}
+	.header__top {
+		flex-wrap: wrap;
+	}
+	.menu__list {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 1110px) {
+	.header {
+		margin-top: 200px;
+	}
+	.header__top {
+		top: -200px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.header {
+		margin-top: 300px;
+	}
+	.header__top {
+		top: -300px;
+	}
+	.header__btn {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.menu__item {
+		margin-bottom: 5px;
+	}
+	.header__main {
+		max-width: 440px;
+		padding-top: 50px;
+	}
+	.header__main h1 {
+		font-size: 45px;
+	}
+	.header__main p {
+		margin-bottom: 35px;
+	}
+}
